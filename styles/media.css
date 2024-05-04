@@ -1,0 +1,23 @@
+@media (max-width: 1050px) {
+    .commerce__cards, .products__cards{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    } 
+}
+@media (max-width: 967px) {
+    .header__nav{
+        display: none;
+        visibility: hidden;
+    }
+    .header__nav.adapt{
+        display: flex;
+        visibility: visible;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.753);
+        z-index: 999;
+    }
+}
